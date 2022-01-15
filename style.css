@@ -142,6 +142,29 @@ nav ul li a:hover{
     margin-top: 4px;
 }
 
+/* image-gallery styles */
+#image-gallery h1{
+    margin-top: 100px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.image-gallery{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.gallery{
+    overflow: hidden;
+}
+.gallery-image img{
+    width: 300px;
+    height: 320px;
+}
+.gallery-image img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
 /* -------media query------- */
 
 /* media query for tablet screen */
@@ -191,6 +214,13 @@ nav ul li a:hover{
     }
     .collections-container{
        grid-template-columns: repeat(2,1fr);
+    }
+    .image-gallery{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery-image img{
+        margin: 15px 0px;
     }
   }
 

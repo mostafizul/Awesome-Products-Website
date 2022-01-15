@@ -103,6 +103,32 @@ nav ul li a:hover{
 .company-logo img{
     margin: 0px 30px;
 }
+
+/* collection styles */
+#popular-collection h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.collections-container{
+    display: flex;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.collection{
+    border:1px solid black;
+    padding: 15px 15px;
+    margin: 15px 15px;
+}
+.collection-image img,.collection-content{
+    width: 100%;
+}
+
+
+/* -------media query------- */
+
+/* media query for tablet screen */
 @media only screen and (max-width: 800px) {
     .container{
         height: auto;
@@ -143,4 +169,20 @@ nav ul li a:hover{
     .company-logo img{
         margin: 0px 0px;
     }
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .collections-container{
+       grid-template-columns: repeat(2,1fr);
+    }
+  }
+
+/* media query for mobile screen */
+  @media only screen and (max-width: 480px) {
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+   
   }

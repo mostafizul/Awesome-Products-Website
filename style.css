@@ -1,5 +1,6 @@
 /* website fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 
 /* utility styles */
 *{
@@ -143,6 +144,9 @@ nav ul li a:hover{
 }
 
 /* image-gallery styles */
+#image-gallery{
+    margin-bottom: 100px;
+}
 #image-gallery h1{
     margin-top: 100px;
     margin-bottom: 35px;
@@ -165,6 +169,34 @@ nav ul li a:hover{
     transition: 0.5s;
 }
 
+/* footer styles */
+#footer-section{
+    width: 100%;
+    background-color:#0a0826;
+    color: white;
+    padding: 50px 50px;
+    text-align: center;
+}
+.footer-container h1{
+    margin-bottom: 10px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.footer-container p{
+   color:#aaaaaaef;
+   margin: 5px 0px;
+   font-family: 'Mochiy Pop P One', sans-serif;
+}
+.footer-icons{
+    padding: 15px 5px;
+}
+.footer-icons i{
+    margin: 0px 10px;
+    background-color: #22213c;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
 /* -------media query------- */
 
 /* media query for tablet screen */

@@ -117,14 +117,30 @@ nav ul li a:hover{
     grid-template-columns: repeat(3,1fr);
 }
 .collection{
-    border:1px solid black;
     padding: 15px 15px;
     margin: 15px 15px;
+    box-shadow: 1px 1px 15px #8888882a;;
+    border-radius: 5px;
 }
 .collection-image img,.collection-content{
     width: 100%;
 }
-
+.collection-content{
+    margin: 10px 0px;
+}
+.collection-content p{
+    text-align: left;
+    margin: 8px 0px;
+    font-size: 24px;
+}
+.collection-content i{
+    color: #FB8200;
+}
+.collection-content h4{
+    color:#787885;
+    font-size: 14px;
+    margin-top: 4px;
+}
 
 /* -------media query------- */
 

@@ -9,9 +9,9 @@
     box-sizing: border-box;
 }
 header{
-    background-color: #F8F9FA;
+    background-color: #f8f9fa46;
     margin-bottom: 100px;
-    box-shadow: 1px 1px 10px #8888883d;
+    box-shadow: 1px 1px 10px #8888882a;
 }
 .container{
     max-width: 1200px;

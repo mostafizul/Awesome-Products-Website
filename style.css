@@ -142,7 +142,16 @@ nav ul li a:hover{
     font-size: 14px;
     margin-top: 4px;
 }
-
+.see-more{
+    text-align: right;
+    margin-right: 200px;
+    margin-top: 50px;
+    color: #E02C6D;
+}
+.see-more a{
+    text-decoration: none;
+    color: #E02C6D;
+}
 /* image-gallery styles */
 #image-gallery{
     margin-bottom: 100px;

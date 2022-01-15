@@ -1,1 +1,61 @@
+/* website fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+/* utility styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: #F8F9FA;
+}
+.container{
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+/* nav styles */
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin-left: 2em;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+}
+.nav-content i{
+    font-size: 24px;
+}
+nav ul li a:hover{
+    border-bottom: 5px solid rgb(190, 28, 28);
+    font-weight: bolder;
+}
+@media only screen and (max-width: 767px) {
+    .container{
+        height: auto;
+    }
+    .nav-content{
+        flex-direction: column;
+    }
+    .nav-heading{
+        margin: 15px 0px;
+    }
+    nav ul{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    nav ul li{
+        margin: 10px 0px;
+    }
+  }
